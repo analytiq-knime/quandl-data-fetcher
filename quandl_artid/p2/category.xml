@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<feature id="quandl_artid.feature" version="1.0.0">
+		<category name="analytiq" />
+	</feature>
+	<feature id="quandl_artid.feature.source" version="1.0.0">
+		<category name="analytiq Sources" />
+	</feature>
+	<category-def name="analytiq" label="KNIME analytiq Contributions">
+	</category-def>
+	<category-def name="analytiq Sources"
+				  label="KNIME analytiq Contributions Sources">
+	</category-def>
+</site>

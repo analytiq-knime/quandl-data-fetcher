@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knimeNode icon="./default.png" type="Source" xmlns="http://knime.org/node/v2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://knime.org/node/v2.10 http://knime.org/node/v2.10.xsd">
+    <name>QuandlEOD</name>
+    
+    <shortDescription>
+        
+    </shortDescription>
+    
+    <fullDescription>
+        <intro>Reads end of day US stock prices listed in Quandl. Use this node to fetch Unadjusted Open,
+Unadjusted High, Unadjusted Low, Unadjusted Close, Unadjusted Volume, Dividends, Splits,
+Adjusted Open, Adjusted High, Adjusted Low, Adjusted Close, and Adjusted Volume from Quandl for
+the 12,000+ tickers. User is required to provide information like API Key, Market, start and end dates
+and list of tickers to be fetched. Upon executing the node, the URL for the user specified dataset is
+generated and fetched from Quandl. The data is made available to the next node in the out-port
+table of QuandlEOD node.</intro>
+        
+        
+        <option name="short name of first option (like in the dialog)">description of first option</option>
+        <option name="short name of second option (like in the dialog)">description of second option</option>
+        <!-- possibly more options that can also be grouped by tabs -->
+        <!--
+        <tab name="Standard Options">
+            <option name="short name of first option (like in the dialog)">description of first option</option>
+            <option name="short name of second option (like in the dialog)">description of second option</option>
+        </tab>
+        <tab name="Advanced Options">
+            <option name="short name of first advanced option (like in the dialog)">description of first advanced option</option>
+        </tab>
+        -->
+    </fullDescription>
+    
+    <ports>
+        <outPort index="0" name="Out-Port name">Description of first output port...</outPort>
+        <!-- possibly more output ports here-->
+    </ports>    
+    <views>
+        <view index="0" name="name of first view">Description of first view...</view>
+        <!--view index="1" name="name of second view">Description of second view...</view-->
+    </views>
+</knimeNode>
